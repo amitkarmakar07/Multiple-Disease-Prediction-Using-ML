@@ -3,7 +3,7 @@ import pickle
 from streamlit_option_menu import option_menu
 import os
 
-st.set_page_config(page_title="Mulitple Disease Prediction",layout="wide", page_icon="👨‍🦰🤶")
+st.set_page_config(page_title="Mulitple Disease Prediction",layout="wide", page_icon="chart_with_upwards_trend")
 
 #loading the models
 
