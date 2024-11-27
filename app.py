@@ -117,7 +117,7 @@ if selected=='Diabetes Prediction':
 # HEART DISEASE PREDICTION
 
 if selected=='Heart Disease Prediction':
-        st.title("Diabetes Prediction Using Machine Learing")
+        st.title("Heart Disease Prediction Using Machine Learing")
         col1,col2,col3=st.columns(3)
         
         with col1:
@@ -158,13 +158,7 @@ if selected=='Heart Disease Prediction':
             ca = st.text_input('Major vessels colored by flourosopy')
 
         with col1:
-            thal = st.selectbox("thal", options=["Normal", "Fixed Defect","Reversable defect"], index=0)
-            if thal == "Normal":
-                    thal = 0
-            elif thal == "Fixed Defect":
-                thal = 1
-            elif thal == "Reversable defect":
-                thal = 2
+            thal = st.text_input('Thal')
         
         heart_disease_result = ""
 
